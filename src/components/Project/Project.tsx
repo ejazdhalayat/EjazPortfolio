@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import externalLink from "../../assets/external-link.svg";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 
 const projects = [
   {
@@ -17,50 +17,50 @@ const projects = [
   },
 
   {
-    title: "Turkset PCRF Product (Policy Control and Rule Functioning)Turkset PCRF Product (Policy Control and Rule Functioning)",
+    title: "Turkset PCRF Product (Policy Control and Rule Functioning)",
     date: " Aug 2022 - Sep 2023",
-    description: "In this dynamic and exciting project, we embark on a journey of software development excellence. We start by crafting WSDL files in Eclipse and generating Java files from SOAP WSDL using MyEclipse. Our SOAP API for PCRF boasts seamless integration with a MySQL database, empowering powerful DB procedures. With our expertise in JSP pages, we create captivating GUIs for product development. But that's not all! We elevate the user experience further by adding a Package Renewal feature and a Service Plan Activation GUI, both powered by Spring Boot and Web services. Get ready to explore the realm of cuttingedge technology and user-centric solutions!.",
-    technologies: [""],
+    description: "In this project, we delve into software development excellence, crafting WSDL files, and generating Java files with MyEclipse. Our SOAP API integrates seamlessly with MySQL, enhancing DB procedures. Using JSP pages, we design compelling GUIs. But that's not all! We enhance the user experience with Package Renewal and Service Plan Activation GUIs powered by Spring Boot and Web services. Explore cutting-edge technology and user-centric solutions!",
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, MySQL, Jira "],
   },
 
   {
-    title: "WUSSD Product (Unstructured Supplementary Service Data)WUSSD Product (Unstructured Supplementary Service Data)",
+    title: "WUSSD Product (Unstructured Supplementary Service Data)",
     date: "Jun 2023 - Sep 2023",
-    description: "This project involves building a WUSSD (Unstructured Supplementary Service Data) system from scratch, which includes the creation of a Package, Tracker and Reports module using GUI and API with Java and Spring Boot. The system allows users to interact with the WUSSD service, generating and viewing reports through the userfriendly interface while leveraging the Java-based API for smooth functionality for USSD and Wifi Mobile using Node.Js as Backend with Api using ExpressJs ",
-    technologies: [""],
+    description: "Building a WUSSD system from scratch with Java and Spring Boot. Modules include Package, Tracker, and Reports using GUI and API. Users interact through a user-friendly interface, generating and viewing reports. The system supports smooth functionality for USSD and Wifi Mobile using Node.js as the backend with Express.js for the API. ",
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, MySQL, Jira"],
   },
 
   {
     title: "SMSC Product (Short Message Service Center)",
     date: "Apr 2023 - May 2023",
     description: "This project develops a GUI-based reporting system and API using Spring Boot and Java for a Short MessageService Center (SMSC) to generate Mis Usage Reports. It also includes User Client configuration for secure clientside access to the reporting system.",
-    technologies: [""],
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, MySQL, Jira"],
   },
 
   {
-    title: "Production Management System – Bijapur Offer Product",
+    title: "Bijapur Offer Product",
     date: "Aug 2021 - Mar 2022",
     description: "Production Management System keeps track of the transaction of all Products, Materials, raw. Shows the information and of the Materials. It deals with monitoring the information and transactions. Provides the administrator facilities to update the list of Materials online",
-    technologies: [""],
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, MySQL, Jira"],
   },
 
   {
     title: "E-Commerce WebsiteE-Commerce Website",
     date: "May 2021 - Jul 2021",
     description: "A website was built by me implementing the Templates of Bootstrap, Tailwind and Modifying as per Client Requirement.",
-    technologies: [""],
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, MongoDB, Jira"],
   },
   {
-    title: "Student Mangement System - ProductStudent Mangement System - Product",
+    title: "Student Mangement System ",
     date: "Jan 2024 - Present",
     description: "Its tracks, maintains, and manages all of the data created by a school, such as a student's grades, attendance, and  interpersonal activity records, among other things and Reflecting them in UI using ReactJS",
-    technologies: [""],
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, Vertica, Jira"],
   },
   {
-    title: "WhatsApp, Text Utils, Amazon Clone, Spotify Clone, Netflix CloneWhatsApp, Text Utils, Amazon Clone, Spotify Clone, Netflix Clone ",
+    title: "WhatsApp, Text Utils, Amazon , Spotify, Netflix Clone",
     date: "  Jan 2021 - Apr 2021",
     description: "A Clone Websites is Build by me using HTML5, Tailwind CSS, JavaScript, React JS as Library and Node.JS as run time Environment Server with Firebase Authentication, Api Fetching using Axios and Some Library of React with Hooks Concepts such as UseState, UseEffect, UseContext",
-    technologies: [""],
+    technologies: ["HTML/CSS, Javascript, React.JS, Java, SpringBoot, Oracle, Jira"],
   },
 
   // Add more projects as needed
@@ -72,7 +72,7 @@ export function Project() {
       <h2>My Projects</h2>
       <div className="projects">
         {projects.map((project, index) => (
-          <ScrollAnimation key={index} animateIn="flipInX">
+          <div key={index} >
             <div className="project">
               <header>
                 <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
@@ -98,7 +98,7 @@ export function Project() {
                 </ul>
               </footer>
             </div>
-          </ScrollAnimation>
+          </div>
         ))}
       </div>
     </Container>

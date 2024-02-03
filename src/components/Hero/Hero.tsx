@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
-import ScrollAnimation from "react-animate-on-scroll"
+// import div from "react-animate-on-scroll"
 import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
@@ -12,27 +12,27 @@ export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
+        <div  >
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        </div>
+        <div    >
           <h1>Arfat Adhoni</h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        </div>
+        <div>
           <h3>Full Stack Developer</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        </div>
+        <div  >
           <p className="small-resume"> 3+ Years of Experience</p>
-        </ScrollAnimation>
+        </div>
 
 
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        <div   >
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
-        </ScrollAnimation>
+        </div>
         
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        <div >
       <div className="social-media"><a
         href="https://www.linkedin.com/in/mohammadarfat-adhoni-0b69921b8"
         target="_blank"
@@ -62,15 +62,15 @@ export function Hero() {
           <img src={telegram} alt="telegram" />
 
         </a></div>
-        </ScrollAnimation>
+        </div>
 
       </div>
      
 
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <div>
           <img src={Illustration} alt="Ilustração" />
-        </ScrollAnimation>
+        </div>
       </div>
      
     </Container>
