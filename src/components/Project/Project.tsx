@@ -90,7 +90,7 @@ export function Project() {
             </svg>
             <div className="project-links">
               {/* Replace '#' with the actual project URL */}
-              <a href="#" target="_blank" rel="noreferrer">
+              <a target="_blank" rel="noreferrer">
                 <img src={externalLink} alt="Visit site" />
               </a>
             </div>
