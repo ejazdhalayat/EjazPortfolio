@@ -19,7 +19,7 @@ export function About() {
         </ div>
         < div >
         <p>
-        Ejaz Dhalayat, a Senior Software Engineer at Mercedes-Benz R&D India, brings over 3 years of experience as a Full-Stack Developer. With an M.Tech degree and expertise in HTML, CSS, JavaScript, React.JS, Java, SpringBoot, and more, he excels in diverse technologies. Proficient in SDLC, cloud platforms, and project management tools, Arfat is adept at handling complex software projects. His passion for innovation and excellence drives him to leverage cutting-edge technologies. Whether you need a new website or a revamp, let's bring your dreams to reality together!
+        Arfat Adhoni, a Senior Software Engineer at Mercedes-Benz R&D India, brings over 3 years of experience as a Full-Stack Developer. With an M.Tech degree and expertise in HTML, CSS, JavaScript, React.JS, Java, SpringBoot, and more, he excels in diverse technologies. Proficient in SDLC, cloud platforms, and project management tools, Arfat is adept at handling complex software projects. His passion for innovation and excellence drives him to leverage cutting-edge technologies. Whether you need a new website or a revamp, let's bring your dreams to reality together!
          </p>
         </ div>
 
